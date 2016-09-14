@@ -6,9 +6,9 @@ $ git remote set-url origin https://username:password@github.com/averonron/py-ed
 
 - 2 -
 $ git config --global credential.helper cache
-# git will cache password for 15 minutes
+git will cache password for 15 minutes
 $ git config --global credential.helper 'cache --timeout=3600'
-# set the cache to timeout after 1 hour (setting is in seconds)
+set the cache to timeout after 1 hour (setting is in seconds)
 
 - 3 -
 (from: https://git-scm.com/docs/git-credential-store)
